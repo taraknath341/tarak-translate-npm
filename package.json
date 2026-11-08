@@ -1,0 +1,43 @@
+{
+   "name": "tarak-translate",
+   "version": "1.0.4",
+   "description": "A MyMemory Translate Unofficial Package",
+   "main": "./index.cjs",
+   "module": "./index.js",
+   "type": "module",
+   "exports": {
+      ".": {
+         "import": {
+            "types": "./index.d.ts",
+            "default": "./index.js"
+         },
+         "require": {
+            "types": "./index.d.cts",
+            "default": "./index.cjs"
+         }
+      }
+   },
+   "files": [
+      "index.js",
+      "index.cjs",
+      "index.d.ts",
+      "index.d.cts",
+      "README.md",
+      "LICENSE"
+   ],
+   "keywords": [
+      "translateNow",
+      "tarak translate",
+      "translate",
+      "language translator",
+      "mymemory",
+      "text translation",
+      "language translator",
+      "translation api"
+   ],
+   "author": "Taraknath Karan",
+   "license": "MIT",
+   "engines": {
+      "node": ">=18"
+   }
+}
